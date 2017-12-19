@@ -44,6 +44,8 @@ const webpackConfig = {
     ],
     extensions: ['.js', '.jsx'],
   },
+  devtool: "cheap-module-eval-source-map",
+
   devServer: {
     compress: true,
     port: 9000
